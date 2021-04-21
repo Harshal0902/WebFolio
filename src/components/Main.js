@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import {StyleProvider} from "../contexts/StyleContext";
 import "./Main.css";
+import Navbar from "./NavBar/Navbar"
 export default class Main extends Component {
   constructor(props) {
     super(props);
@@ -28,6 +29,7 @@ export default class Main extends Component {
         <StyleProvider
           value={{isDark: this.state.isDark, changeTheme: this.changeTheme}}
         >
+          <Navbar />
         </StyleProvider>
       </div>
     );

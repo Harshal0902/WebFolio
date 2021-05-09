@@ -35,12 +35,12 @@ function Header() {
           </li>
           <li>
           <Link activeClass="active"
-              to="projects"
+              to="education"
               spy={true}
               smooth={true}
               offset={-50}
               duration={250}>
-              Projects</Link>
+              Education</Link>
           </li>
           <li>
           <Link activeClass="active"
@@ -53,12 +53,12 @@ function Header() {
           </li>
           <li>
           <Link activeClass="active"
-              to="education"
+              to="projects"
               spy={true}
               smooth={true}
               offset={-50}
               duration={250}>
-              Education</Link>
+              Projects</Link>
           </li>
           <li>
             <Link activeClass="active"
@@ -67,7 +67,7 @@ function Header() {
               smooth={true}
               offset={-50}
               duration={250}>
-              Contact Me</Link>
+              Let's Talk</Link>
           </li>
 
           <li>

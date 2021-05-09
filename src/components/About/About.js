@@ -18,7 +18,7 @@ function About() {
                         <h1 style={{ fontSize: "2.6em" }} className="about-intro">Hi <img src={Hi} width="50px" style={{ marginBottom: "20px" }}></img>, I'm John Deo</h1>
                         <Type />
                         <p className="about-body" >
-                            orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         <br />
                             <br />
                         I am a

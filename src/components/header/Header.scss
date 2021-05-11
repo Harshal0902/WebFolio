@@ -6,6 +6,7 @@
   background-color: #171c28 !important;
   color: white;
   z-index: 400;
+  // z-index: 5;
 }
 
 .dark-menu li a {
@@ -31,6 +32,7 @@
   overflow: hidden;
   cursor: pointer;
   font-family: "Source Serif Pro", serif;
+  font-weight: bold;
   letter-spacing: 0.5px;
 }
 .grey-color {
@@ -39,8 +41,8 @@
 
 .header li a {
   display: block;
-  padding: 15px 20px;
-  font-size: 20px;
+  padding: 10px 20px;
+  font-size: 120%;
   color: black;
   text-decoration: none;
 }
@@ -59,10 +61,10 @@
   text-decoration: none;
   margin-top: 10px;
   line-height: normal;
-  color: #00ccff;
 }
 .header .logo-name {
   font-family: 'Dancing Script', cursive;
+// font-family: 'Libre Baskerville', serif;
   font-weight: bold;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;

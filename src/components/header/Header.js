@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Link } from "react-scroll"
 import Headroom from "react-headroom";
-import "./Navbar.css";
+import "./Header.scss";
 import StyleContext from "../../contexts/StyleContext";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 
@@ -12,8 +12,8 @@ function Header() {
     <Headroom style={{ position: "fixed" }}>
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
-              <span className="grey-color">&lt;</span>
-          <span className="logo-name">John Deo</span><span className="grey-color">/&gt;</span>
+          <span className="grey-color">&lt;</span>
+          <span className="logo-name">Harshal Raikwar</span><span className="grey-color">/&gt;</span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
@@ -25,7 +25,7 @@ function Header() {
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           <li>
-          <Link activeClass="active"
+            <Link activeClass="active"
               to="skills"
               spy={true}
               smooth={true}
@@ -34,7 +34,7 @@ function Header() {
               Skills</Link>
           </li>
           <li>
-          <Link activeClass="active"
+            <Link activeClass="active"
               to="education"
               spy={true}
               smooth={true}
@@ -43,7 +43,7 @@ function Header() {
               Education</Link>
           </li>
           <li>
-          <Link activeClass="active"
+            <Link activeClass="active"
               to="experiences"
               spy={true}
               smooth={true}
@@ -52,7 +52,7 @@ function Header() {
               Work Experiences</Link>
           </li>
           <li>
-          <Link activeClass="active"
+            <Link activeClass="active"
               to="projects"
               spy={true}
               smooth={true}
@@ -69,7 +69,6 @@ function Header() {
               duration={250}>
               Let's Talk</Link>
           </li>
-
           <li>
             <a href="#">
               <ToggleSwitch />

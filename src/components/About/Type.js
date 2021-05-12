@@ -1,5 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+import Typical from 'react-typical'
 
 function Type() {
   return (

@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Libre+Baskerville:ital@1&family=Source+Serif+Pro:wght@300&display=swap");
+
+.skillsbg {
+  position: absolute;
+  width: 988.59px;
+  height: 165.55px;
+  left: 32.68px;
+  font-family: "Source Serif Pro", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 169px;
+  color: #718096;
+}
+.skillsfr {
+  position: absolute;
+  width: 496.2px;
+  height: 54.86px;
+  left: 53px;
+  padding-top: 50px;
+  font-family: "Source Serif Pro", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 56px;
+}
+@media (max-width: 750px) {
+  .skillsfr {
+    position: absolute;
+    width: 80vw;
+    height: 29px;
+    font-size: 50px;
+  }
+  .skillsbg {
+    display: none;
+  }
+  .skill_images ul li {
+    display: none;
+  }
+  .skill_images {
+    // margin-left: -2.5vw;
+    display: grid;
+    place-items: center;
+  }
+}
+
+.skills_section {
+  position: relative;
+  padding-bottom: 70px !important;
+  padding-top: 180px !important;
+}
+.skills_intro {
+  font-family: "Source Serif Pro", serif;
+  font-size: 2.2rem;
+  font-weight: 200;
+}
+.skills_description {
+  padding-top: 10px !important;
+  padding-bottom: 20px !important;
+  text-align: center;
+  width: 100vw;
+}
+.skills_body {
+  padding-top: 50px;
+  font-size: 1.2em !important;
+  text-align: left;
+}
+.img_skill {
+  width: 110%;
+  margin-left: -5%;
+  top: 150px;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+.skill_images {
+  display: block;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+.skill_images ul {
+  list-style: none;
+}
+
+.skill_images ul li {
+  display: inline;
+  list-style: none;
+  float: left;
+  padding: 0 10px 0 0;
+  text-align: center;
+  font-family: "Source Serif Pro", serif;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+}
+
+.skill_images ul li a {
+  display: block;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}

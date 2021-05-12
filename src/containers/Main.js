@@ -1,8 +1,18 @@
 import React, {Component} from "react";
 import {StyleProvider} from "../contexts/StyleContext";
-import "./Main.css";
-import Navbar from "./NavBar/Navbar"
-import About from "./About/About"
+import "./Main.scss";
+import Header from "../components/header/Header";
+import About from "../components/About/About"
+import Skills from "../components/Skills/Skills"
+import Projects from "../components/Projects/Projects"
+import Experience from "../components/Experience/Experience"
+import Education from "../components/Education/Education"
+import Testimonial from "../components/Testimonial/Testimonial.js"
+import Contact from "../components/Contact/Contact"
+import Footer from "../components/Footer/Footer"
+import Scroll from "../components/ScrollToTop/Scroll"
+
+// import Skilltest from "../components/Skills/Skilltest"
 export default class Main extends Component {
   constructor(props) {
     super(props);
@@ -30,8 +40,16 @@ export default class Main extends Component {
         <StyleProvider
           value={{isDark: this.state.isDark, changeTheme: this.changeTheme}}
         >
-          <Navbar />
+          <Header />
           <About />
+          <Skills />
+          <Education />
+          <Experience />
+          <Projects />
+          {/* <Testimonial /> */}
+          <Contact />
+          <Footer />
+          <Scroll showBelow={400} />
         </StyleProvider>
       </div>
     );

@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Source+Serif+Pro:wght@500&display=swap');
+.dark__menu {
+  background-color: #171c28 !important;
+  color: white;
+  z-index: 5;
+}
+
+.dark__menu li a {
+  color: white !important;
+}
+
+.dark__menu li a:hover {
+  background-color: #55198b !important;
+}
+
+.header {
+  background-color: #fff;
+  max-width: 100%;
+  padding: 10px 20px;
+  margin: 0px auto;
+  top: 0px;
+}
+
+.header .logo {
+  display: block;
+  flex: none;
+  float: left;
+  font-size: 1.6em;
+  text-decoration: none;
+  line-height: normal;
+}
+
+.grey__color {
+  color: #868e96;
+}
+
+.header .logo-name {
+  font-family: 'Dancing Script', cursive;
+  font-variant-ligatures: no-common-ligatures;
+  font-weight: bolder;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+  padding: 0 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  cursor: pointer;
+  font-family: "Source Serif Pro", serif;
+  letter-spacing: 0.5px;
+}
+
+.header li a {
+  display: block;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: black;
+  text-decoration: none;
+}
+
+.header li a:hover, .header .menu__btn:hover {
+  background-color: #f4f4f4;
+  border-radius: 15px;
+}
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+.header .menu__icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu__icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background 0.2s ease-out;
+  width: 18px;
+}
+
+.header .menu__icon .navicon:before, .header .menu__icon .navicon:after {
+  background: #333;
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.header .menu__icon .navicon-dark:before, .header .menu__icon .navicon-dark:after {
+  background: white !important;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.header .menu__icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu__icon .navicon:after {
+  top: -5px;
+}
+
+.header .menu__btn {
+  display: none;
+}
+
+.header .menu__btn:checked~.menu {
+  max-height: 486px;
+}
+
+.header .menu__btn:checked~.menu__icon .navicon {
+  background: transparent;
+}
+
+.header .menu__btn:checked~.menu__icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu__btn:checked~.menu__icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu__btn:checked~.menu__icon:not(.steps) .navicon:before, .header .menu__btn:checked~.menu__icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+@media (min-width: 750px) {
+  .header li {
+    float: left;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header .menu {
+    max-height: none;
+  }
+  .header .menu__icon {
+    display: none;
+  }
+}
+
+@media (max-width: 750px) {
+  .header {
+    font-size: 12px;
+  }
+  .header .logo {
+    margin-top: 13px;
+    font-size: 1.45rem;
+  }
+}

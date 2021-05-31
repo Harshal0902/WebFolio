@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Link } from "react-scroll"
 import Headroom from "react-headroom";
-import "./Header.scss";
+import "./Header.css";
 import StyleContext from "../../contexts/StyleContext";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 
@@ -10,20 +10,20 @@ function Header() {
 
   return (
     <Headroom style={{ position: "fixed" }}>
-      <header className={isDark ? "dark-menu header" : "header"}>
+      <header className={isDark ? "dark__menu header" : "header"}>
         <a href="/" className="logo">
-          <span className="grey-color">&lt;</span>
-          <span className="logo-name">Harshal Raikwar</span><span className="grey-color">/&gt;</span>
+          <span className="grey__color">&lt;</span>
+          <span className="logo-name">John Doe</span><span className="grey__color">/&gt;</span>
         </a>
-        <input className="menu-btn" type="checkbox" id="menu-btn" />
+        <input className="menu__btn" for='menu__btn' type="checkbox" id="menu__btn" />
         <label
-          className="menu-icon"
-          htmlFor="menu-btn"
+          className="menu__icon"
+          htmlFor="menu__btn"
           style={{ color: "white" }}
         >
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
-        <ul className={isDark ? "dark-menu menu" : "menu"}>
+        <ul className={isDark ? "dark__menu menu" : "menu"}>
           <li>
             <Link activeClass="active"
               to="skills"
@@ -70,7 +70,7 @@ function Header() {
               Let's Talk</Link>
           </li>
           <li>
-            <a href="#">
+            <a rel="Dark Mode Toggle" aria-label="Toggle" aria-labelledby="Dark Mode Toggle" href="/#">
               <ToggleSwitch />
             </a>
           </li>

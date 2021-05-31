@@ -2,17 +2,14 @@ html,
 body {
   scroll-behavior: smooth;
 }
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  transition: 5s;
+  -webkit-transition: 500;
+  transition: 500;
 }
+
 /* Media Query */
-@media (max-width: 1380px) {
-  html,
-  body {
-    font-size: 16px;
-    line-height: normal;
-  }
-}
+/*# sourceMappingURL=index.css.map */

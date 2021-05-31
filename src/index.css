@@ -1,0 +1,15 @@
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: 500;
+  transition: 500;
+}
+
+/* Media Query */
+/*# sourceMappingURL=index.css.map */

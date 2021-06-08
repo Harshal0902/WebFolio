@@ -69,6 +69,21 @@
   cursor: pointer;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+    #React-logo {
+      animation: React-logo-spin infinite 10s linear;
+    }
+  }
+  
+  @keyframes React-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
 [data-tooltip][aria-label] {
   position: relative;
 }

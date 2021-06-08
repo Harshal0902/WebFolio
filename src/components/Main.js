@@ -4,6 +4,9 @@ import "./Main.css"
 import Header from "./Header/Header"
 import About from "./About/About"
 import Skills from "./Skills/Skills"
+import Education from "./Education/Education"
+import VolExp from "./Experience/VolExp"
+import WorkExp from "./Experience/WorkExperience"
 
 export default class Main extends Component {
   constructor(props) {
@@ -34,6 +37,9 @@ export default class Main extends Component {
           <Header />
           <About />
           <Skills />
+          <Education />
+          <WorkExp />
+          <VolExp />
         </StyleProvider>
       </div>
     );

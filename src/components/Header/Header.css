@@ -77,10 +77,10 @@
 .header .menu__icon {
   cursor: pointer;
   display: inline-block;
-  float: right;
   padding: 28px 20px;
   position: relative;
   user-select: none;
+  float: right;
 }
 
 .header .menu__icon .navicon {
@@ -162,7 +162,7 @@
 
 @media (max-width: 750px) {
   .header {
-    font-size: 12px;
+    font-size: 15px;
   }
   .header .logo {
     margin-top: 13px;

@@ -56,7 +56,7 @@
 
 .header li a {
   display: block;
-  padding: 10px 20px;
+  padding: 10px 15px;
   font-size: 1.2rem;
   font-weight: bolder;
   color: black;
@@ -80,7 +80,7 @@
   padding: 28px 20px;
   position: relative;
   user-select: none;
-  float: right;
+  /* float: right; */
 }
 
 .header .menu__icon .navicon {

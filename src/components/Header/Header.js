@@ -79,7 +79,7 @@ function Header() {
               Let's Talk</Link>
           </li>
           <li>
-            <a rel="Dark Mode Toggle" aria-label="Toggle" aria-labelledby="Dark Mode Toggle" href="/#">
+            <a rel="Dark Mode Toggle" href="/#">
               <ToggleSwitch />
             </a>
           </li>

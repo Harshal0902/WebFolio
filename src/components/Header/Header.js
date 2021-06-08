@@ -23,7 +23,7 @@ function Header() {
         >
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
-        <ul className={isDark ? "dark__menu menu" : "menu"}>
+        <ul className={isDark ? "dark-menu menu" : "menu"}>
           <li>
             <Link activeClass="active"
               to="skills"
@@ -59,6 +59,15 @@ function Header() {
               offset={-50}
               duration={250}>
               Projects</Link>
+          </li>
+          <li>
+            <Link activeClass="active"
+              to="awards"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={250}>
+              Awards</Link>
           </li>
           <li>
             <Link activeClass="active"

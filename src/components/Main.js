@@ -7,6 +7,8 @@ import Skills from "./Skills/Skills"
 import Education from "./Education/Education"
 import VolExp from "./Experience/VolExp"
 import WorkExp from "./Experience/WorkExperience"
+import Project from "./Projects/Projects"
+import Scroll from "./ScrollToTop/Scroll"
 
 export default class Main extends Component {
   constructor(props) {
@@ -40,6 +42,8 @@ export default class Main extends Component {
           <Education />
           <WorkExp />
           <VolExp />
+          <Project />
+          <Scroll showBelow={400} />
         </StyleProvider>
       </div>
     );

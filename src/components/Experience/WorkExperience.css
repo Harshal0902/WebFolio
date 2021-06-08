@@ -33,7 +33,6 @@
     display: flex;
     flex-wrap: wrap;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 0rem;
     margin: 4rem 6vw;
     padding: 0;
     list-style: none;

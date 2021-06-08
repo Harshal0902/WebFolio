@@ -1,0 +1,13 @@
+.ScrollToTop {
+    cursor: pointer;
+    position: fixed;
+    z-index: 2;
+    bottom: 7vh;
+    right: 3%;
+}
+
+@media (max-width: 750px) {
+    .ScrollToTop {
+        bottom: 14vh;
+    }
+}

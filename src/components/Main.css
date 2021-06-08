@@ -1,7 +1,6 @@
 .dark-mode {
   background-color: #171c28;
   color: white;
-  -webkit-transition: "0.1s";
-  transition: "0.1s";
+  -webkit-transition: 0.1s;
+  transition: .1s;
 }
-/*# sourceMappingURL=Main.css.map */

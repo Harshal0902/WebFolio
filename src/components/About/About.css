@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Libre+Baskerville:ital@1&family=Source+Serif+Pro:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+.about__section {
+  position: relative;
+  padding-bottom: 40px !important;
+  padding-top: 70px;
+}
+
+.about__description {
+  padding-top: 10px !important;
+  padding-bottom: 20px !important;
+}
+
+.text__center {
+  text-align: center;
+  margin-bottom: -25px;
+}
+
+.about__intro {
+  font-family: "Libre Baskerville", serif;
+  letter-spacing: 1px;
+  font-size: 2.6rem;
+}
+
+.about__intro img {
+  padding-bottom: 20px;
+}
+
+.about__body {
+  padding-top: 50px;
+  font-size: 18px !important;
+  text-align: left;
+}
+
+#container {
+  display: flex;
+}
+
+#terminal {
+  width: 80vw;
+}
+
+#terminal__bar {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  padding: 0 8px;
+  box-sizing: border-box;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background: linear-gradient(#504b45 0%, #3c3b37 100%);
+  box-shadow: 0 0 10px -2px rgba(0, 0, 0, 0.5);
+}
+
+#bar__buttons {
+  display: flex;
+  align-items: center;
+}
+
+.bar__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-right: 5px;
+  font-size: 8px;
+  height: 12px;
+  width: 12px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 100%;
+  background: linear-gradient(#7d7871 0%, #595953 100%);
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 1px 0px #41403A, 0px 1px 1px 0px #474642;
+}
+
+.bar__button:hover {
+  cursor: pointer;
+}
+
+.bar__button:focus {
+  outline: none;
+}
+
+#bar__button--exit {
+  background: linear-gradient(#f37458 0%, #de4c12 100%);
+  background-clip: padding-box;
+}
+
+#bar__user {
+  color: #d5d0ce;
+  margin-left: 6px;
+  font-size: 14px;
+  line-height: 15px;
+  margin-top: 8px;
+}
+
+#terminal__body {
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
+  background: rgba(56, 4, 40, 0.9);
+  font-family: 'Ubuntu Mono';
+  padding-top: 2px;
+  margin-top: -1px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#terminal__bio {
+  color: #dddddd;
+  padding: 4px 10px;
+  font-family: 'Ubuntu Mono';
+  font-size: 18px;
+  text-align: left;
+}
+
+#terminal__prompt {
+  padding-left: 10px;
+  display: flex;
+}
+
+#terminal__prompt--user {
+  color: #7eda28;
+}
+
+#terminal__prompt--location {
+  color: #4878c0;
+}
+
+#terminal__prompt--bling {
+  color: #dddddd;
+}
+
+#terminal__prompt--cursor {
+  display: block;
+  height: 17px;
+  width: 8px;
+  margin-left: 9px;
+  animation: blink 1200ms linear infinite;
+  margin-top: 4px;
+  margin-bottom: 65px;
+}
+
+@keyframes blink {
+  0% {
+    background: #ffffff;
+  }
+  49% {
+    background: #ffffff;
+  }
+  60% {
+    background: transparent;
+  }
+  99% {
+    background: transparent;
+  }
+  100% {
+    background: #ffffff;
+  }
+}
+
+.text__center a {
+  text-decoration: none;
+}
+
+.img__fluid {
+  border-radius: 50%;
+  max-width: 350px;
+}
+
+.myAvtar {
+  margin-top: 50px;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, .44));
+}
+
+.btn, .btn2 {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  font-family: "Source Serif Pro", serif;
+  font-weight: bold;
+  text-align: center;
+  line-height: 25px;
+  letter-spacing: 1.2px;
+  color: rgba(255, 255, 255, 0.9);
+  border-radius: 50px;
+  background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+  background-size: 600%;
+  -webkit-animation: anime 16s linear infinite;
+  animation: anime 16s linear infinite;
+}
+
+.btn2 {
+  position: absolute;
+  margin-top: -30px;
+  z-index: -1;
+  filter: blur(30px);
+  opacity: 0.8;
+}
+
+@-webkit-keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media (max-width: 750px) {
+  .about__section {
+    margin-top: -30px;
+  }
+  #terminal {
+    width: 100%;
+  }
+  #terminal__prompt--cursor {
+    margin-top: 0.3rem;
+  }
+  .myAvtar {
+    display: grid;
+    place-items: center;
+  }
+  .img__fluid {
+    width: 75vw;
+  }
+}

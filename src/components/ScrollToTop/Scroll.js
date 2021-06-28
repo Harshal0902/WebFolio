@@ -5,8 +5,6 @@ const ScrollTop = ({
     showBelow,
 }) => {
 
-    // const classes = useStyles();
-
     const [show, setShow] = useState(showBelow ? false : true)
 
     const handleScroll = () => {

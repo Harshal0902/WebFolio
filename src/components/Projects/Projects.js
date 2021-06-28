@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import "./Projects.css"
 import COVID from "../../assets/images/project-page/COVID19.png"
 
-
 export class Projects extends Component {
     render() {
         return (

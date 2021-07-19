@@ -102,7 +102,8 @@
   text-transform: uppercase;
   color: #9251ac;
   letter-spacing: 1.5px;
-  font-family: sans-serif;
+  font-weight: bold;
+  font-family: "Source Serif Pro, serif";
 }
 
 .timeline-event-content {
@@ -111,11 +112,14 @@
   background: #fff;
   width: calc(40vw - 84px);
   border-radius: 0 6px 6px 0;
+  font-family: "Source Serif Pro, serif";
+  font-weight: 600;
 }
 
 .timeline-event-date {
   color: #f6a4ec;
   font-size: 1.5rem;
+  font-family: "Source Serif Pro, serif";
   font-weight: 600;
   background: #9251ac;
   display: flex;

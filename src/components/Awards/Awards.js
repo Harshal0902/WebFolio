@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ReactCardCarousel from "react-card-carousel";
+import Fade from 'react-reveal/Fade'
 import "./Awards.css"
 import WinHacks from "../../assets/images/awards-page/Winhacks.png"
 import GfGgoS from "../../assets/images/awards-page/GfG Game of Source.png"
@@ -22,11 +23,13 @@ class Awards extends Component {
 
   render() {
     return (
-      <div id="awards">
-          <div>
-            <h2 className="awadsBg">Awards</h2>
-            <div className="awadsFg">Awards</div>
-          </div>
+      <div id="awards"> <Fade left>
+        <div>
+          <h2 className="awadsBg">Awards</h2>
+          <div className="awadsFg">Awards</div>
+        </div>
+      </Fade>
+        <Fade bottom>
           <div className="awards">
             <ReactCardCarousel autoplay={true} autoplay_speed={3500}>
               <div style={Awards.CARD_STYLE}>
@@ -40,6 +43,7 @@ class Awards extends Component {
               </div>
             </ReactCardCarousel>
           </div>
+        </Fade>
       </div>
     );
   }

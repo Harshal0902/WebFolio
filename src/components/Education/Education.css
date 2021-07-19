@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
-
 .podcastbg {
   position: absolute;
   width: 988.59px;
@@ -28,13 +27,13 @@
 
 @media (max-width: 750px) {
   .podcastfr {
-      position: absolute;
-      width: 80vw;
-      height: 29px;
-      font-size: 50px;
+    position: absolute;
+    width: 80vw;
+    height: 29px;
+    font-size: 50px;
   }
   .podcastbg {
-      display: none;
+    display: none;
   }
 }
 
@@ -55,20 +54,20 @@
   width: 50vw;
 }
 
-.timeline-event:nth-child(2n + 1) {
+.timeline-event:nth-child(2n+1) {
   flex-direction: row-reverse;
 }
 
-.timeline-event:nth-child(2n + 1) .timeline-event-date {
+.timeline-event:nth-child(2n+1) .timeline-event-date {
   border-radius: 0 6px 6px 0;
   letter-spacing: 0.1rem;
 }
 
-.timeline-event:nth-child(2n + 1) .timeline-event-content {
+.timeline-event:nth-child(2n+1) .timeline-event-content {
   border-radius: 6px 0 0 6px;
 }
 
-.timeline-event:nth-child(2n + 1) .timeline-event-icon:before {
+.timeline-event:nth-child(2n+1) .timeline-event-icon:before {
   content: "";
   width: 2px;
   height: 100%;
@@ -83,7 +82,7 @@
   animation: fillTop 2s forwards 4s ease-in-out;
 }
 
-.timeline-event:nth-child(2n + 1) .timeline-event-icon:after {
+.timeline-event:nth-child(2n+1) .timeline-event-icon:after {
   content: "";
   width: 100%;
   height: 2px;
@@ -105,7 +104,7 @@
   color: #9251ac;
   letter-spacing: 1.5px;
   font-weight: bold;
-  font-family: "Source Serif Pro, serif";
+  font-family: 'Source Serif Pro', serif;
 }
 
 .timeline-event-content {
@@ -114,7 +113,7 @@
   background: #fff;
   width: calc(40vw - 84px);
   border-radius: 0 6px 6px 0;
-  font-family: "Source Serif Pro, serif";
+  font-family: 'Source Serif Pro', serif;
   font-size: 15px;
   font-weight: 500;
 }
@@ -122,7 +121,7 @@
 .timeline-event-date {
   color: #f6a4ec;
   font-size: 1.5rem;
-  font-family: "Source Serif Pro, serif";
+  font-family: 'Source Serif Pro', serif;
   font-weight: 600;
   background: #9251ac;
   display: flex;
@@ -154,7 +153,7 @@
   font-size: 32px;
 }
 
-.SchoolImg{
+.SchoolImg {
   width: 65px;
 }
 
@@ -206,7 +205,7 @@
   background: #555ac0;
 }
 
-.timeline-event--type2:nth-child(2n + 1) .timeline-event-icon:before, .timeline-event--type2:nth-child(2n + 1) .timeline-event-icon:after {
+.timeline-event--type2:nth-child(2n+1) .timeline-event-icon:before, .timeline-event--type2:nth-child(2n+1) .timeline-event-icon:after {
   background: #87bbfe;
 }
 
@@ -232,7 +231,7 @@
   background-color: #24b47e;
 }
 
-.timeline-event--type3:nth-child(2n + 1) .timeline-event-icon:before, .timeline-event--type3:nth-child(2n + 1) .timeline-event-icon:after {
+.timeline-event--type3:nth-child(2n+1) .timeline-event-icon:before, .timeline-event--type3:nth-child(2n+1) .timeline-event-icon:after {
   background: #aff1b6;
 }
 
@@ -255,75 +254,75 @@
 
 @media (max-width: 786px) {
   .timeline-event {
-      flex-direction: column;
-      align-self: center;
-      width: 60%;
+    flex-direction: column;
+    align-self: center;
+    width: 60%;
   }
   .timeline-event-title {
-      font-size: 0.95rem;
+    font-size: 0.95rem;
   }
   .timeline-event-content {
-      width: 100%;
+    width: 100%;
   }
   .timeline-event-icon {
-      border-radius: 6px 6px 0 0;
-      width: 100%;
-      margin: 0;
-      box-shadow: none;
+    border-radius: 6px 6px 0 0;
+    width: 100%;
+    margin: 0;
+    box-shadow: none;
   }
   .timeline-event-icon:before, .timeline-event-icon:after {
-      display: none;
+    display: none;
   }
   .timeline-event-date {
-      border-radius: 0;
-      padding: 20px;
+    border-radius: 0;
+    padding: 20px;
   }
-  .timeline-event:nth-child(2n + 1) {
-      flex-direction: column;
-      align-self: center;
+  .timeline-event:nth-child(2n+1) {
+    flex-direction: column;
+    align-self: center;
   }
-  .timeline-event:nth-child(2n + 1) .timeline-event-date {
-      border-radius: 0;
-      padding: 20px;
+  .timeline-event:nth-child(2n+1) .timeline-event-date {
+    border-radius: 0;
+    padding: 20px;
   }
-  .timeline-event:nth-child(2n + 1) .timeline-event-icon {
-      border-radius: 6px 6px 0 0;
-      margin: 0;
+  .timeline-event:nth-child(2n+1) .timeline-event-icon {
+    border-radius: 6px 6px 0 0;
+    margin: 0;
   }
 }
 
 @-webkit-keyframes fillLeft {
   100% {
-      right: 100%;
+    right: 100%;
   }
 }
 
 @keyframes fillLeft {
   100% {
-      right: 100%;
+    right: 100%;
   }
 }
 
 @-webkit-keyframes fillTop {
   100% {
-      top: 100%;
+    top: 100%;
   }
 }
 
 @keyframes fillTop {
   100% {
-      top: 100%;
+    top: 100%;
   }
 }
 
 @-webkit-keyframes fillLeftOdd {
   100% {
-      left: 100%;
+    left: 100%;
   }
 }
 
 @keyframes fillLeftOdd {
   100% {
-      left: 100%;
+    left: 100%;
   }
 }

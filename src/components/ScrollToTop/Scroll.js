@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import "./Scroll.css"
+import Rocket from "../../assets/images/Rocket.png"
 
 const ScrollTop = ({
     showBelow,
@@ -29,8 +30,8 @@ const ScrollTop = ({
     return (
         <div>
             {show &&
-                <img onClick={handleClick} className="ScrollToTop" aria-label="to top" component="span" src="https://img.icons8.com/bubbles/60/000000/up.png" />
-            }
+                    <img onClick={handleClick} width="55px" height="55px" style={{ cursor: "pointer", backgroundColor: "white", borderRadius: "50%" }} className="ScrollToTop" aria-label="to top" component="span" src={Rocket} />
+                }
         </div>
     )
 }

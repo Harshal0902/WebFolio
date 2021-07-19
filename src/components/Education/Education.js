@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import "./Education.css"
+import GradImg from "../../assets/images/education-section/graduation-cap.png"
+import SchoolImg from "../../assets/images/education-section/school-backpack.png"
 
 export class Education extends Component {
   render() {
@@ -8,63 +10,64 @@ export class Education extends Component {
         <h2 className="podcastbg">Education</h2>
         <div className="podcastfr">Education</div>
         <div className="timeline">
-          
-          <div className="timeline__event timeline__event--type1">
-            <div className="timeline__event__icon ">
-              <img alt="Graduation" src="https://img.icons8.com/plasticine/60/000000/graduation-cap.png" />
+
+          <div className="timeline-event timeline-event--type1">
+            <div className="timeline-event-icon ">
+              <img alt="Graduation" width="80px" src={GradImg} />
             </div>
-            <div className="timeline__event__date">
+            <div className="timeline-event-date">
               2019-2023
+            </div>
+            <div className="timeline-event-content ">
+              <div className="timeline-event-title">
+                SRM Institute of Science and Technology
               </div>
-            <div className="timeline__event__content ">
-              <div className="timeline__event__title">
-              Indian Institutes of Technology 
-                </div>
-              <div className="timeline__event__description">
+              <div className="timeline-event-description">
                 <p >Bachelor of Technology, Computer Science & Engineering (2019-2023) <br />
-                  Current CGPA: 10/10</p>
+                  Current CGPA: 9.2/10</p>
               </div>
             </div>
           </div>
 
-          <div className="timeline__event timeline__event--type2">
-            <div className="timeline__event__icon">
-              <img alt="School" src="https://img.icons8.com/fluent/60/000000/school-backpack.png" />
+          <div className="timeline-event timeline-event--type2">
+            <div className="timeline-event-icon">
+              <img alt="School" width="70px" className="SchoolImg" src={SchoolImg} />
             </div>
-            <div className="timeline__event__date">
+            <div className="timeline-event-date">
               2019
+            </div>
+            <div className="timeline-event-content">
+              <div className="timeline-event-title">
+                Starex International School
               </div>
-            <div className="timeline__event__content">
-              <div className="timeline__event__title">
-              Indian Institutes of Technology
-                </div>
-              <div className="timeline__event__description">
+              <div className="timeline-event-description">
                 <p>12th CBSE<br />
-                  Score: 99%<br />
+                  Score: 74%<br />
                 </p>
               </div>
             </div>
           </div>
 
-          <div className="timeline__event timeline__event--type3">
-            <div className="timeline__event__icon">
-              <img alt="School" src="https://img.icons8.com/fluent/60/000000/school-backpack.png" />
+          <div className="timeline-event timeline-event--type3">
+            <div className="timeline-event-icon">
+              <img alt="School" width="70px" className="SchoolImg" src={SchoolImg} />
             </div>
-            <div className="timeline__event__date">
+            <div className="timeline-event-date">
               2017
+            </div>
+            <div className="timeline-event-content">
+              <div className="timeline-event-title">
+                Starex International school
               </div>
-            <div className="timeline__event__content">
-              <div className="timeline__event__title">
-              Indian Institutes of Technology
-                </div>
-              <div className="timeline__event__description">
+              <div className="timeline-event-description">
                 <p>10th CBSE<br />
-                  Score: 10 CGPA
-                  </p>
+                  Score: 9.2 CGPA<br />
+                  Cyber Olympiad Gold Medalist (School Level)
+                </p>
               </div>
-
             </div>
           </div>
+
         </div>
       </div>
     )

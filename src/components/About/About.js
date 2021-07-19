@@ -5,6 +5,12 @@ import Tilt from "react-parallax-tilt";
 import "./About.css";
 import myImg from "../../assets/DP.png"
 import Hi from "../../assets/Hi.gif"
+import GitHubImg from "../../assets/images/socials/github.png"
+import LinkedinImg from "../../assets/images/socials/linkedin.png"
+import MediumImg from "../../assets/images/socials/medium.png"
+import StackOverImg from "../../assets/images/socials/stackoverflow.png"
+import TwitterImg from "../../assets/images/socials/twitter.png"
+import InstaImg from "../../assets/images/socials/instagram.png"
 import Type from "./Type";
 
 function About() {
@@ -41,7 +47,7 @@ function About() {
                                         </div>
                                         <div id="terminal__bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br />
                                             <br />
-                                        I am a <i>
+                                            I am a <i>
                                                 <b> Web Developer</b></i> and <i><b>Machine Learning enthusiast.</b>
                                             </i>
                                         </div>
@@ -57,31 +63,34 @@ function About() {
                             </main>
 
                             <a rel="My Resume" href="/#" target="blank"><div className="btn" style={{ color: "white", marginTop: "1.5rem" }}>My Resume
-                            <div className="btn2"></div>
+                                <div className="btn2"></div>
                             </div></a>
 
                         </p>
                         <br />
 
-                        {/* Icons are used from Icon8 */}
-                        <div className="text__center">
-                            <a rel="Github" href="/#" target="blank"><img alt="Github"
-                                src="https://img.icons8.com/bubbles/65/000000/github.png" /></a>
+                        <div className="text_center_link">
 
-                            <a rel="Linkedin" href="/#" target="blank"
-                            > <img src="https://img.icons8.com/bubbles/65/000000/linkedin.png" alt="Linkedin" />
+                            <a rel="Github" href="/#" target="blank">
+                                <img src={GitHubImg} alt="Github" />
                             </a>
 
-                            <a rel="Medium" href="/#" target="blank"
-                            ><img src="https://img.icons8.com/nolan/65/medium-new.png" alt="Medium" /> </a>
+                            <a rel="Linkedin" href="/#" target="blank">
+                                <img src={LinkedinImg} alt="Linkedin" />
+                            </a>
 
-                            <a rel="Stackoverflow" href="/#" target="blank" > <img src="https://img.icons8.com/color/65/000000/stackoverflow.png" alt="Stackoverflow" /> </a>
+                            <a rel="Medium" href="/#" target="blank"> <img src={MediumImg} alt="Medium" />
+                            </a>
 
-                            <a rel="Twitter" href="/#" target="blank" > <img
-                                src="https://img.icons8.com/bubbles/65/000000/twitter.png" alt="Twitter" /> </a>
+                            <a rel="Stackoverflow" href="/#" target="blank"> <img src={StackOverImg} alt="Stackoverflow" />
+                            </a>
 
-                            <a rel="Instagram" href="/#" target="blank" > <img
-                                src="https://img.icons8.com/bubbles/65/000000/instagram-new.png" alt="Instagram" /> </a>
+                            <a rel="Twitter" href="/#" target="blank"> <img src={TwitterImg} alt="Twitter" />
+                            </a>
+
+                            <a rel="Instagram" href="/#" alt="Harshal_0902" target="blank"> <img src={InstaImg} alt="Instagram" />
+                            </a>
+
                         </div>
 
                     </Col>

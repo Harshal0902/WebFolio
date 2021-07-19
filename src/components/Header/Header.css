@@ -80,7 +80,7 @@
   padding: 28px 20px;
   position: relative;
   user-select: none;
-  /* float: right; */
+  float: right;
 }
 
 .header .menu__icon .navicon {

@@ -5,93 +5,39 @@
   height: 26px;
 }
 
-/* Fix visible slider checkbox */
 input {
-  -webkit-transform: scale(0.5);
-          transform: scale(0.5);
+  -webkit-appearance: none;
+  position: relative;
+  width: 56px;
+  height: 28px;
+  background-image: url(https://i.postimg.cc/857jHw2q/Screenshot-2020-04-16-at-1-07-06-PM.png);
+  background-size: cover;
+  border-radius: 50px;
+  outline: none;
+  transition: background-image .90s;
+  box-shadow: 0px 2px 5px 1px gray;
 }
 
-.slider {
+input:before {
+  content: "";
   position: absolute;
-  cursor: pointer;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-.slider::before {
-  position: absolute;
-  content: "";
-  height: 26px;
+  height: 28px;
   width: 28px;
-  left: 0;
-  bottom: 0;
-  background-color: white;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  background-color: navy;
+  border-radius: 50px;
+  transition: all .9s;
+  background-color: #F7CA33;
 }
 
-input:checked + .slider {
-  background-color: #2196f3;
+input:checked {
+  background-image: url(https://i.postimg.cc/Hn0nstVK/Screenshot-2020-04-16-at-1-07-19-PM.png);
+  transition: background-image .90s;
 }
 
-input:focus + .slider {
-  -webkit-box-shadow: 0 0 1px #2196f3;
-          box-shadow: 0 0 1px #2196f3;
+input:checked:before {
+  transform: translate(100%);
+  transition: all .9s;
+  background-color: #ECF0F3;
 }
-
-input:checked + .slider::before {
-  -webkit-transform: translateX(26px);
-  transform: translateX(26px);
-}
-
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round::before {
-  border-radius: 50%;
-}
-
-.slider::after {
-  display: inline;
-  position: absolute;
-  right: 9.3%;
-  bottom: 17.5%;
-}
-
-input:checked + .slider::after {
-  display: inline;
-  position: absolute;
-  right: 56.3%;
-  bottom: 14.5%;
-}
-
-@media all and (max-width: 786px) and (min-width: 425px) {
-  input:checked + .slider::after {
-    right: 60.3%;
-    bottom: 20.5%;
-  }
-  .slider::after {
-    right: 15.3%;
-    bottom: 22.5%;
-  }
-}
-
-@media all and (max-width: 2560px) and (min-width: 1552px) {
-  .slider::after {
-    bottom: 12.5% !important;
-  }
-}
-
-@media all and (max-width: 1552px) and (min-width: 1440px) {
-  .slider::after {
-    bottom: 7.5% !important;
-  }
-}
-/*# sourceMappingURL=ToggleSwitch.css.map */

@@ -15,3 +15,8 @@
   background: rgba(126, 38, 185, 0.959);
   border-radius: 12px;
 }
+
+.preloader{
+  display: block;
+  margin: 30vh auto;
+}

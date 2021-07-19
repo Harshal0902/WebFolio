@@ -187,7 +187,7 @@
   filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, .44));
 }
 
-.btn, .btn2 {
+.btn{
   width: 200px;
   height: 40px;
   font-size: 20px;
@@ -202,14 +202,6 @@
   background-size: 600%;
   -webkit-animation: anime 16s linear infinite;
   animation: anime 16s linear infinite;
-}
-
-.btn2 {
-  position: absolute;
-  margin-top: -30px;
-  z-index: -1;
-  filter: blur(30px);
-  opacity: 0.8;
 }
 
 @-webkit-keyframes anime {

@@ -19,6 +19,7 @@
   padding: 10px 20px;
   margin: 0px auto;
   top: 0px;
+  z-index: 10;
 }
 
 .header .logo {

@@ -9,7 +9,7 @@
     font-weight: 900;
     font-size: 100px;
     line-height: 169px;
-    opacity: 0.4;
+    opacity: 0.2;
 }
 
 .exp-Fr {
@@ -120,11 +120,6 @@
     flex-shrink: 0;
     width: 3em;
     height: 3em;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
 }
 
 .exp__title {

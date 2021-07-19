@@ -1,0 +1,65 @@
+.awadsBg {
+    position: absolute;
+    width: 988.59px;
+    height: 165.55px;
+    left: 32.68px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 169px;
+    opacity: 0.2;
+}
+
+.awadsFg {
+    position: absolute;
+    width: 496.2px;
+    height: 54.86px;
+    left: 53px;
+    padding-top: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 56px;
+}
+
+.awards{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    top: 15vh;
+    height: 90vh;
+    margin-bottom: 50px;
+}
+
+.My__Cert{
+    width: 50vw;
+    height: 65vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+@media (max-width: 750px) {
+    .awadsFg {
+        position: absolute;
+        width: 80vw;
+        height: 29px;
+        font-size: 50px;
+    }
+    .awadsBg {
+        display: none;
+    }
+    .awards{
+        top: 9rem;
+        height: 30vh;
+    }
+    .My__Cert{
+        width: 63vw;
+        height: 25vh;
+    }    
+}

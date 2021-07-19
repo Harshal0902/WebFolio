@@ -8,6 +8,9 @@ import Education from "./Education/Education"
 import VolExp from "./Experience/VolExp"
 import WorkExp from "./Experience/WorkExperience"
 import Project from "./Projects/Projects"
+import Awards from "./Awards/Awards"
+import Contact from "./Contact/Contact"
+import Footer from "./Footer/Footer"
 import Scroll from "./ScrollToTop/Scroll"
 
 export default class Main extends Component {
@@ -43,6 +46,9 @@ export default class Main extends Component {
           <WorkExp />
           <VolExp />
           <Project />
+          <Awards />
+          <Contact />
+          <Footer />
           <Scroll showBelow={400} />
         </StyleProvider>
       </div>

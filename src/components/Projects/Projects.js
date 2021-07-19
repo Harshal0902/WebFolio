@@ -30,7 +30,7 @@ export class Projects extends Component {
                                     </div>
                                     <div className="content">
                                         <div className="contentBx" >
-                                            <h3 style={{ color: "black" }}>EduAR <br /><span
+                                            <h3 className="text-black">EduAR <br /><span
                                             >(React Js, echoAR, Firebase)<br />AR-based website where students can learn with the help of 3D Models.
                                             </span></h3>
                                         </div>
@@ -52,7 +52,7 @@ export class Projects extends Component {
                                     </div>
                                     <div className="content">
                                         <div className="contentBx" >
-                                            <h3 style={{ color: "black" }}>Signal Clone <br /><span
+                                            <h3 className="text-white">Signal Clone <br /><span
                                             >(React Native, Expo, Firebase)<br />A clone of a famous social media platform Signal.
                                             </span></h3>
                                         </div>
@@ -74,7 +74,7 @@ export class Projects extends Component {
                                     </div>
                                     <div className="content">
                                         <div className="contentBx" >
-                                            <h3 style={{ color: "black" }}>Minecraft Game <br /><span
+                                            <h3 className="text-white">Minecraft Game <br /><span
                                             >(React Js, Three.js)<br />A simple Minecraft Game using React Js and Three.js
                                             </span></h3>
                                         </div>

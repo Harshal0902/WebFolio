@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
 .podcastbg {
   position: absolute;
   width: 988.59px;
@@ -113,7 +115,8 @@
   width: calc(40vw - 84px);
   border-radius: 0 6px 6px 0;
   font-family: "Source Serif Pro, serif";
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .timeline-event-date {

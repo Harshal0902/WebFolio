@@ -60,6 +60,14 @@ section#main {
     width: 100%;
 }
 
+.text-white{
+    color: #fff;
+}
+
+.text-black{
+    color: #000;
+}
+
 #main .container_proj .card .content {
     position: absolute;
     bottom: -210px;
@@ -84,8 +92,7 @@ section#main {
 }
 
 #main .container_proj .card .content .contentBx h3 {
-    color: #fff;
-    letter-spacing: 2px;
+    letter-spacing: 0.05rem;
     font-size: 25px;
     font-family: "Source Serif Pro, serif";
     text-align: center;
@@ -95,7 +102,7 @@ section#main {
     transition-delay: 0.6s;
     opacity: 0;
     transform: translateY(-20px);
-    font-weight: bold;
+    font-weight: 600;
 }
 
 #main .container_proj .card:hover .content .contentBx h3 {
@@ -105,8 +112,9 @@ section#main {
 }
 
 #main .container_proj .card .content .contentBx h3 span {
-    font-size: 12px;
-    font-weight: bolder;
+    font-size: 17px;
+    letter-spacing: 0.05rem;
+    font-weight: 500;
     text-transform: initial;
 }
 

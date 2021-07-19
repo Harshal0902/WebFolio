@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
 .exp-Bg {
     position: absolute;
     width: 988.59px;
@@ -146,8 +147,9 @@
     text-align: justify;
     overflow: hidden;
     font-family: "Source Serif Pro, serif";
-    font-weight: lighter;
-    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.05rem;
 }
 
 @media (max-width: 750px) {

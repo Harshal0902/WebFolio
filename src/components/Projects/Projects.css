@@ -94,7 +94,7 @@ section#main {
 #main .container_proj .card .content .contentBx h3 {
     letter-spacing: 0.05rem;
     font-size: 25px;
-    font-family: "Source Serif Pro, serif";
+    font-family: 'Source Serif Pro', serif;
     text-align: center;
     margin-top: 10px;
     line-height: 1em;

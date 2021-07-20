@@ -127,14 +127,14 @@
     font-size: 1.4em;
     margin: 0 0 0.3em;
     color: #312a2e;
-    font-family: "Source Serif Pro, serif";
+    font-family: 'Source Serif Pro', serif;
     font-weight: bold;
 }
 
 .exp__status {
     font-size: 1em;
     color: #1a1517;
-    font-family: "Source Serif Pro, serif";
+    font-family: 'Source Serif Pro', serif;
     font-weight: 500;
     letter-spacing: 0.5px;
 }
@@ -146,7 +146,7 @@
     -webkit-box-orient: vertical;
     text-align: justify;
     overflow: hidden;
-    font-family: "Source Serif Pro, serif";
+    font-family: 'Source Serif Pro', serif;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.05rem;

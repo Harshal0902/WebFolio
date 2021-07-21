@@ -26,7 +26,7 @@ export class Education extends Component {
               </div>
               <div className="timeline-event-content ">
                 <div className="timeline-event-title">
-                  SRM Institute of Science and Technology
+                  Harvard University
                 </div>
                 <div className="timeline-event-description">
                   <p >Bachelor of Technology, Computer Science & Engineering (2019-2023) <br />
@@ -46,10 +46,10 @@ export class Education extends Component {
               </div>
               <div className="timeline-event-content">
                 <div className="timeline-event-title">
-                  Starex International School
+                  Massachusetts Institute of Technology
                 </div>
                 <div className="timeline-event-description">
-                  <p>12th CBSE<br />
+                  <p>12th<br />
                     Score: 74%<br />
                   </p>
                 </div>
@@ -67,12 +67,11 @@ export class Education extends Component {
               </div>
               <div className="timeline-event-content">
                 <div className="timeline-event-title">
-                  Starex International school
+                  Massachusetts Institute of Technology
                 </div>
                 <div className="timeline-event-description">
-                  <p>10th CBSE<br />
-                    Score: 9.2 CGPA<br />
-                    Cyber Olympiad Gold Medalist (School Level)
+                  <p>10th<br />
+                    Score: 9.2 CGPA
                   </p>
                 </div>
               </div>

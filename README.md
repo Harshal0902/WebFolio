@@ -37,7 +37,8 @@ npm start
 
 ## NOTE
 
-Replace the Global site tag (gtag.js) for google analytics, with your own tracking code.
+- Replace the Global site tag (gtag.js) for google analytics, with your own tracking code in public/index.html file.
+- Rplace the formspre link with your link in src/components/Contact/Contact.js
 
 ## Credit
 

@@ -177,7 +177,7 @@
   text-decoration: none;
 }
 
-.img__fluid {
+.profile_image {
   border-radius: 50%;
   max-width: 350px;
 }
@@ -249,7 +249,7 @@
     display: grid;
     place-items: center;
   }
-  .img__fluid {
+  .profile_image {
     width: 75vw;
   }
 }

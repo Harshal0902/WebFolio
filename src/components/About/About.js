@@ -97,7 +97,7 @@ function About() {
                         </Col>
                         <Col md={4} className="myAvtar">
                             <Tilt>
-                                <img src={myImg} className="img__fluid" alt="Me" />
+                                <img src={myImg} className="profile_image" alt="Me" />
                             </Tilt>
                         </Col>
                     </Row>

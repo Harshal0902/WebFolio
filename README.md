@@ -7,6 +7,7 @@
 <a href="https://github.com/Harshal0902/React-Developer-Portfolio/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?label=license&message=MIT&color=yellow"></a>
 <a href="https://github.com/Harshal0902/"><img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?v=103"></a>
 <a href="https://github.com/Harshal0902/React-Developer-Portfolio"><img src="https://img.shields.io/badge/PR's%3F-Welcomed-blue.svg?v=103"></a>
+
 </div>
 
 Open source responsive portfolio for developers, build with React Js. To view a live example, click [here](https://react-js-portfolio-gray.vercel.app).
@@ -14,9 +15,11 @@ Open source responsive portfolio for developers, build with React Js. To view a 
 <!-- ## Some glimps of the site -->
 
 ## Techstack
-<img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/> 
+
+<img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
 
 ## Sections
+
 - About Me
 - Skills
 - Education
@@ -25,6 +28,12 @@ Open source responsive portfolio for developers, build with React Js. To view a 
 - Projects
 - Awards
 - Contact me
+
+## Prerequisites
+
+Required to install and run the software:
+
+- [npm](https://www.npmjs.com/get-npm)
 
 ## Installing and Running
 
@@ -45,8 +54,7 @@ npm start
 Toggle button: [Codepen by aliceyt](https://codepen.io/aliceyt/pen/eYpJobY)  
 Education Timeline: [Education Timeline by Aslam](https://codepen.io/hunzaboy/pen/qBWRBXw)
 
-
-## Project Maintainer 
+## Project Maintainer
 
 <table>
   <tbody><tr>
@@ -55,12 +63,11 @@ Education Timeline: [Education Timeline by Aslam](https://codepen.io/hunzaboy/pe
   </tr>
 </tbody></table>
 
-## License 
+## License
 
 <p align="center">
 <a href="https://github.com/Harshal0902/React-Developer-Portfolio/blob/main/LICENSE">
 <img width=35% src="https://media.tenor.com/images/68ecdcb63296f1db6532bf5b83051da9/tenor.gif"></p>
-<h5 align="center"><b>MIT License</b></a> 
-
+<h5 align="center"><b>MIT License</b></a>
 
 💜 **Thanks**

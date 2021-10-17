@@ -27,6 +27,13 @@
   align-items: left;
 }
 
+.formEmail{
+  letter-spacing: 0.08rem;
+}
+.fromEmail__mail{
+  color: #45c7e7;
+}
+
 .form_control_input {
   width: 100%;
   border-radius: 15px;

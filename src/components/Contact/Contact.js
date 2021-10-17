@@ -28,6 +28,7 @@ function Contact() {
                     <Col md={6}>
                         <Fade right cascade>
                             <h1 className="formLogo" >Reach Out to Me</h1>
+                            <p className="formEmail">Hate forms? Send an <a href="mailto:" className="fromEmail__mail">email</a> instead.</p>
 
                             {/* Replace it with your formspre link */}
                             <form action="<YOUR-LINK>" method="POST" className="contact_right">

@@ -98,7 +98,7 @@ export class Projects extends Component {
 
                 <Fade bottom>
                     <div className="btn_center">
-                        <a href="/#" target="blank"><div className="btn" style={{ color: "white" }}>More Projects
+                        <a href="https://github.com/" target="blank"><div className="btn" style={{ color: "white" }}>More Projects
                             <div className="btn2"></div>
                         </div></a>
                     </div>

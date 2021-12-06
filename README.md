@@ -1,4 +1,4 @@
-# React Js Developer Portfolio -Task2
+# WebFolio
 
 <div align="center">
 
@@ -11,8 +11,6 @@
 </div>
 
 Open source responsive portfolio for developers, build with React Js. To view a live example, click [here](https://react-js-portfolio-gray.vercel.app).
-
-<!-- ## Some glimps of the site -->
 
 ## Techstack
 
